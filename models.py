@@ -1,4 +1,5 @@
 # Database table - describe our database table
+# This is what the DB sees
 # We write python and SQLAlchemy does the rest by creating an sql table
 from sqlalchemy import Column, Integer, String, Float
 from database import Base
